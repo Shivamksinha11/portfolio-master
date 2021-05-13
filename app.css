@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-dark .navbar-brand {
+    color: rgb(220 30 100 / 90%);
+    padding-left: 30px;
+}
+.navbar-dark .navbar-brand:hover {
+    color: rgb(220 30 100 / 90%);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(243 243 243 / 1);
+    transition: 0.5s ease-out;
+    padding-left: 30px;
+}
+
+.navbar{
+    border-bottom: 2px solid rgba(0, 225, 255, 0.945);
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    height: 100vh !important;
+    background-image: url("download.png");
+    background-size: cover;
+}
+#header{
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 17.5%;
+    padding-bottom: 270px;
+}
+.heading-primary{
+ 
+    color: white;
+    font-size: 40px;
+}
+.subheader2{
+    display: block;
+}
+.name{
+    color: rgb(224,27,108);
+}
+
+.arrow{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.neo {
+    padding: 20px 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    padding: 1px 8px 8px 10px;
+    background-color: rgb(37,41,52);
+    border: none;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/*creating animation effect*/
+.neo:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+
+.image{
+    width: 400px;
+    height: 350px;
+    clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(98,98,98);
+}
+.subtext{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about{
+    margin-top: 100px;
+}
+
+.tools{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.lang{
+    color: #000000;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.projects{
+    color: #000000;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.icons{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    transition: all 0.6s ease;
+}
+.icongrp{
+    margin-bottom: 50px;
+}
+.icons:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.icons:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/*icons*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-whatsapp{
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+
+.phone{
+    color: #03e9f4;
+}
+.number{
+    color: white;
+}
+.number:hover{
+    color: rgb(224,27,108);
+}
+.shiv{
+    margin-left: 400px;
+}
+.shiv1{
+    margin-top: 75px;
+    margin-left: 70px;
+}
+
+
+/*projects*/
+.neo2{
+    display: inline-block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    background: linear-gradient(90deg,transparent,#5a038d);
+    padding: 1px 8px 8px 10px;
+    background-color: rgb(37,41,52);
+    border: none;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.arrow2{
+padding-left: 10px;
+font-size: 20px;
+}
+.neo2:hover {
+background: #5a038d;
+box-shadow: 0 0 5px #5a038d,
+            0 0 25px #5a038d,
+            0 0 50px #5a038d,
+            0 0 200px #5a038d;
+}
+  
+/*education*/
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&amp;display=swap");
+:root {
+  --member-animation: all 0.35s ease-in-out;
+  --font-family-1: "Josefin Sans", sans-serif;
+  --font-family-2: Nunito, sans-serif;
+}
+
+/* TIMELINE */
+#timeline-container {
+  background: #00112e;
+  background: linear-gradient(171deg, #00112e 0%, #f7f7f7 100%);
+  overflow: auto;
+  padding: 60px 0;
+}
+#timeline-container .inner-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#timeline-container .inner-container .head {
+  text-align: center;
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  margin-top: 0;
+}
+
+.timeline {
+  margin: 0 auto;
+  position: relative;
+  left: 120px;
+  width: 80%;
+  max-width: 900px;
+  margin-top: 16px;
+  margin-left: 5%;
+}
+
+.timeline-item {
+  color: #ffffff;
+  font-family: var(--font-family-2);
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-left: 4px solid #fff;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  list-style-type: none;
+  --item-width: calc(100%);
+}
+.timeline-item::after {
+  content: attr(data-date);
+  position: absolute;
+  right: calc(var(--item-width) + 40px);
+  top: 16px;
+  float: right;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.timeline-item::before {
+  content: "";
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  position: absolute;
+  left: -10px;
+  top: 21px;
+}
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .timeline {
+    margin: 0 auto;
+    position: relative;
+    left: 85px;
+  }
+  .timeline .timeline-item {
+    font-size: 1.1rem;
+  }
+  .timeline .timeline-item::after {
+    right: calc(var(--item-width) + 30px);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .timeline-item {
+    padding: 1rem 1.5rem 1rem 0.5rem;
+  }
+  .timeline-item::after {
+    right: calc(var(--item-width) + 20px);
+  }
+}
+/* TIMELINE end */
+
+.journey{
+    height: 250px;
+}
+.jour{
+    margin-bottom: 50px;
+}
